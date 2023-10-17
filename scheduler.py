@@ -4,6 +4,7 @@ import random
 from PyDictionary import PyDictionary
 dictionary = PyDictionary()
 
+#Use the dict file provided and use it as a reference below
 file= open("dict.txt")
 words= file.read().split("\n")
 def get_word():
@@ -37,11 +38,12 @@ def notii():
 
 notii()
 
+#You may use the icon file as a reference in the below field thats left empty
 while True:
     notification.notify(
         title="Did you drink water today?",
         message="About 3.7 liters of fluids for men & 2.7 liters for women is required daily",
-        app_icon="C:\\Users\\Admin\\Desktop\\project\\Scheduler\\Rade8-Drinx-X-water.ico",
+        app_icon="",
         timeout=15
     )
     time.sleep(60*60)
