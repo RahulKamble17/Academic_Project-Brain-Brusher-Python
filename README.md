@@ -1,5 +1,5 @@
 # Academic_Project-Brain-Brusher-Python
-Aims to improve a person's vocab by making them learn 1 word everyday. That was the main objective!! Additionally it helps you keep hydrated by reminding you to drink water from time to time :)
+Aims to improve a person's vocab by making them learn 1 word everyday. That was the main objective!! Additionally it keeps you hydrated by reminding you to drink water from time to time :)
 
 **How to use**
 1) Run the 'scheduler.py' file (Pass the 'dict' file as a reference to the script)
